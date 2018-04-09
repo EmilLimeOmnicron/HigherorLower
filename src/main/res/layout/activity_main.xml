@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context="evangelista.emil.higherorlower.MainActivity">
+
+
+    <TextView
+        android:id="@+id/bestStreak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Best Streak"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="5dp"/>
+
+    <TextView
+        android:id="@+id/bestStreakValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="24dp"/>
+
+    <TextView
+        android:id="@+id/currentStreak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current streak"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="5dp"/>
+
+    <TextView
+        android:id="@+id/currentStreakValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        tools:layout_editor_absoluteX="332dp"
+        tools:layout_editor_absoluteY="24dp"/>
+
+    <Button
+        android:id="@+id/higherButton"
+        android:layout_width="140dp"
+        android:layout_height="89dp"
+        android:background="@color/red"
+        android:text="Higher"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="279dp"/>
+
+    <Button
+        android:id="@+id/lowerButton"
+        android:layout_width="143dp"
+        android:layout_height="89dp"
+        android:background="@color/red"
+        android:text="Lower"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="279dp"/>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal"
+        android:text="Reset"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="463dp"/>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal"
+        android:text="Save Score"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="463dp"/>
+
+    <Button
+        android:id="@+id/loadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal"
+        android:text="Load Score"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="403dp"/>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal"
+        android:text="Start"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="403dp"/>
+</android.support.constraint.ConstraintLayout>
